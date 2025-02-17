@@ -3,7 +3,7 @@ const app = express();
 
 //Ruta principal - para q responda algo
 app.get("/",(req, res)=> {
-    res.send("Bck End Deploy !!!!")
+    res.send("Back End Deploy !!!!")
 });
 
 // const PORT = 3000; //Puerto Manera local
